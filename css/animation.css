@@ -1,0 +1,81 @@
+/* Login Button */
+button.submit {
+    transition: all 0.3s;
+}
+button.submit:hover {
+    transform: translateY(-10px);
+}
+
+/* buttons */
+button {
+    transition: all 0.3s;
+}
+button.offline {
+    font-family: 'Cera Round Pro';
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+button.offline:hover {
+    border-radius: 6px;
+}
+
+/* Start Learning Button */
+a.startLearning, div.startLearning {
+    transition: all 0.3s;
+}
+a.startLearning:hover, div.startLearning:hover {
+    transform: translateY(-10px);
+}
+a.startLearning:hover {
+    color: rgb(240, 240, 240);
+}
+
+/* Learning Buttons */
+
+/* HTML */
+a.learnHTML, div.learnHTMLA {
+    transition: all 0.3s;
+}
+a.learnHTML:hover, div.learnHTMLA:hover {
+    transform: translateY(-10px);
+}
+a.learnHTML:hover {
+    color: rgb(240, 240, 240);
+}
+/* CSS */
+
+a.learnCSS, div.learnCSSA {
+    transition: all 0.3s;
+}
+a.learnCSS:hover, div.learnCSSA:hover {
+    transform: translateY(-10px);
+}
+a.learnCSS:hover {
+    color: rgb(240, 240, 240);
+}
+/* JS */
+
+a.learnJS, div.learnJSA {
+    transition: all 0.3s;
+}
+a.learnJS:hover, div.learnJSA:hover {
+    transform: translateY(-10px);
+}
+a.learnJS:hover {
+    color: rgb(240, 240, 240);
+    background: linear-gradient(135deg, rgba(103,175,255,1) 0%, rgba(110,103,255,1) 50%, rgba(215,103,255,1) 100%);
+}
+/* LearnHTML/CSS/JS VSCODE HOVER */
+
+a.tooltip {
+    transition: all 0.3s;
+}
+
+/* LOGIN ICON */
+
+.loginButton {
+    transition: all 0.3s;
+}

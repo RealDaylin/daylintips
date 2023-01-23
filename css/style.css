@@ -1,0 +1,572 @@
+@font-face {
+    font-family: Cera Round Pro; src: url('../fonts/ceraroundpro.otf');
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    color: white;
+    background: rgb(22,144,165);
+    background: linear-gradient(90deg, rgba(22,144,165,1) 0%, rgba(34,180,186,1) 50%, rgba(37,194,150,1) 100%);
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+    min-width: 256px;
+    padding-top: 8px;
+    padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+nav ul {
+    background: rgb(112,16,207);
+    background: radial-gradient(circle, rgba(112,16,207,1) 0%, rgba(139,21,255,1) 50%, rgba(166,76,255,1) 100%);
+    border: 2px solid #111;
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+nav ul li {
+    display: inline;
+    border-right: 2 px solid #111;
+    padding-right: 8px;
+    border: 2 px solid #111;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #111;
+    border: 2 px solid #111;
+}
+h1 {
+    color: rgba(255, 255, 255, 0.459);
+}
+strong {
+    color: white;
+    text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
+    10px 20px 5px rgba(0,0,0,0.05),
+    -10px 20px 5px rgba(0,0,0,0.05);
+    font-family: 'Fredoka One', cursive;
+}
+hr {
+    background: #9c9c9c;
+}
+p {
+    color: rgba(255, 255, 255, 0.781); 
+}
+
+section {
+    border-radius: 10px;
+    border: 3px solid #111;
+}
+section {
+    background-color: rgba(75, 72, 72, 0.589);
+}
+a { 
+    list-style-type: none;
+    text-decoration: none;
+    color: #111;
+}
+h6 {
+    color: rgba(255, 255, 255, 0.781);
+    font-size: 20px;
+}
+sup {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.781);
+}
+header p {
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0px;
+} 
+header h1 {
+    font-size: 16px;
+    text-align: right;
+}
+footer {
+    background-color: #b577b5;
+}
+p.copyright {
+    float: left;
+    text-align: right;
+}
+p.contact {
+    text-align: right;
+}
+img.NewIcon1 {
+    padding-left: 5px;
+    border: none;
+}
+hr.NewIcon1 {
+    height: 1px;
+    background-color: rgb(94, 94, 94);
+    border: none;
+}
+section code, span, p, h1, h2, h3, h4, h5, h6, table, button {
+    padding-left: 5px;
+}
+div button {
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+section img {
+    border: none;
+    border-radius: none;
+    padding-left: 5px;
+}
+section table {
+    padding-bottom: 5px;
+}
+button {
+    background-color: #0a4752;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-family: sans-serif;
+}
+button:hover {
+    cursor: pointer;
+    background-color: #106c7c;
+    border-radius: 5px;
+}
+.togglesWhite {
+    border: none;
+    border-radius: none;
+    background-color: none;
+    object-position: top right;
+}
+input {
+    background-color: rgb(255, 255, 255);
+    color: #fff;
+    font-family: sans-serif;
+    border: 5px;
+    border-radius: 5px;
+    border-color: white;
+    width: auto;
+    height: 50px;
+    text-align: left center;
+    padding-left: 5px;
+    font-weight: bold;
+    font-size: large;
+}
+input:focus {
+    background-color: rgb(167, 167, 167);
+    outline: 2px solid rgb(99, 99, 99);
+    border: 2px solid rgb(99, 99, 99);
+    border-radius: 5px;
+}
+input.testInput {
+    width: 150px;
+    height: 40px;
+    margin-right: 45px;
+}
+button.testButton {
+    padding: 5px;
+    text-transform: capitalize ;
+    font-family: 'Fredoka One';
+}
+h4.testText {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+    margin-right: 50px;
+}
+input[type="Password"], input[type="username"], input[type="email"] {
+    font-family: Verdana;
+    letter-spacing: 0.125emz;
+    -webkit-text-security: disc;
+    background-color: rgb(255, 255, 255);
+}
+input[type="Password"]:focus, input[type="username"]:focus, input[type="email"]:focus {
+    background-color: rgb(167, 167, 167);
+    outline: 2px solid rgb(99, 99, 99);
+    border: 2px solid rgb(99, 99, 99);
+    border-radius: 5px;
+}
+input[type="username"], input[type="email"] {
+    -webkit-text-security: none;
+}
+input[type="username"]::placeholder, input[type="email"]::placeholder {
+    color: #c3c6d1;
+}
+input.email {
+    border-right-color: rgb(95, 105, 125);
+    border-left-color: rgb(95, 105, 125);
+    color: black;
+    font-family: Cera Round Pro, sans-serif;
+    text-shadow: none;
+    width: auto;
+}
+input:-webkit-autofill {
+    background-color: rgb(167, 167, 167);
+}
+  
+label {
+    color: #183153;
+    font-family: Cera Round Pro, sans-serif;
+    font-weight: bold;
+}
+label.passwordText {
+    padding-bottom: 2px;
+}
+img.testImage {
+    border: none;
+    padding-right: 7px;
+}
+input::placeholder {
+    color: rgb(255, 228, 228);
+    text-align: left center;
+    padding-left: 5px;
+    font-weight: bold;
+    font-size: large;
+}
+.YouTubeButton {
+    border: none;
+    border-radius: none;
+}
+.YouTubeButton:hover {
+    opacity: 0.7;
+}
+.YouTubeButton:active {
+    opacity: 0.4;
+}
+.FlagNetherlands {
+    padding-left: 10px;
+}
+.FlagEngland {
+    padding-left: 10px;
+}
+.FlagNetherlands:hover {
+   opacity: 0.7;
+}
+.FlagEngland:hover {
+    opacity: 0.7;
+}
+.FlagNetherlands:active {
+    opacity: 0.4;
+}
+.FlagEngland:active {
+     opacity: 0.4;
+}
+h3 {
+    color: rgba(255, 255, 255, 0.781);
+}
+img.toggles {
+    border-radius: none;
+    border: none;
+}
+p.toggles {
+    text-align: right;
+}
+td, th {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+h1.homepage, h3.homepage, h4.homepage {
+    text-align: center;
+    color: white;
+}
+a.robloxCreate {
+    color: rgb(44, 170, 212);
+}
+a.robloxCreate:hover {
+    color: white;
+    text-decoration: underline;
+}
+img.StartCreating {
+    width: 24%;
+}
+section.code {
+    border: 3px solid rgba(64,64,64,1);
+    border-radius: 5px;
+}
+
+span.codeNumber {
+    color: rgb(255, 227, 227);
+    font-family: sans-serif;
+    font-size: normal;
+    padding-left: 5px;
+}
+span.codeLine {
+    color: white;
+    font-family: sans-serif;
+    font-size: normal;
+    padding-left: 5px;
+}
+code br {
+    padding-left: 5px;
+}
+span.less {
+    color: rgb(85, 85, 85);
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    color: rgb(44, 170, 212);
+}
+.tooltip:hover {
+    color: white;
+    text-decoration: underline;
+}
+button.submit {
+    font-family: 'Dosis', sans-serif;
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+    color: black;
+    font-weight: 100;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 150px;
+    background-color: #303234;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -75px;
+}
+  
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+.reportIssue {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: none;
+}
+textarea {
+    background-color: #19b3ce;
+    color: #fff;
+    font-family: sans-serif;
+    border: 5px;
+    border-color: white;
+    border-radius: 5px;
+    width: auto;
+    height: 50px;
+}
+textarea::placeholder {
+    color: rgb(255, 228, 228);
+    text-align: center;
+}
+form {
+    background-color: #0f6d7e;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+form input,textarea {
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background: #19b3ce;
+}
+form button {
+    padding: 15px;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+    background-color: #ff5361;
+}
+form button:hover {
+    background-color: #ff3243;
+    border-radius: 30px;
+}
+button.submit {
+    font-family: "Fredoka One";
+}
+a.Register {
+    color: white;
+    text-align: right;
+    padding-top: 35px;
+}
+div.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+a.startLearning {
+    background: rgb(103,175,255);
+    background: linear-gradient(135deg, rgba(103,175,255,1) 0%, rgba(110,103,255,1) 50%, rgba(215,103,255,1) 100%);
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+}
+button.startLearning {
+    object-position: center;
+    text-align: center;
+}
+div.startLearning {
+    text-align: center;
+    padding: 10px;
+}
+a.learnHTML {
+    background: rgb(103,175,255);
+    background: linear-gradient(135deg, rgba(103,175,255,1) 0%, rgba(110,103,255,1) 50%, rgba(215,103,255,1) 100%);
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+}
+div.learnHTML {
+    padding: 1px;
+    color: white;
+}
+a.learnCSS {
+    background: rgb(103,175,255);
+    background: linear-gradient(135deg, rgba(103,175,255,1) 0%, rgba(110,103,255,1) 50%, rgba(215,103,255,1) 100%);
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+}
+div.learnCSS {
+    text-align: right;
+    padding: 10px;
+    color: white;
+}
+a.learnJS {
+    background: rgb(103,175,255);
+    background: linear-gradient(135deg, rgba(103,175,255,1) 0%, rgba(110,103,255,1) 50%, rgba(215,103,255,1) 100%);
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+}
+div.learnJS {
+    text-align: left;
+    padding: 10px;
+    color: white;
+}
+.loginButton {
+    object-position: right;
+    float: right;
+    border: none;
+    background: none;
+}
+img.homepageImage {
+    width: 400px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.menuHome {
+    border: none;
+    float: left;
+    background: none;
+}
+.menuHome:hover {
+    background: none;
+    cursor: pointer;
+}
+.menuContainer {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    overflow: hidden;
+}
+.menu-icon {
+    width: 35px;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    cursor: pointer;
+}
+div.skillContainer {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 420px;
+    padding: 50;
+    border-radius: 8px;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Dosis', sans-serif;
+}
+div.circular-progress {
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background: conic-gradient(#7d2ae8 324deg, #ededed 0deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.circular-progress::before {
+    content: "";
+    position: absolute;
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+span.progress-text {
+    position: relative;
+    font-size: 40px;
+    font-weight: 600;
+    color: #7d2ae8;
+}
+.skillText {
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+}
+hr {
+    height: 5px;
+    border-radius: 3px;
+    border: 0px solid #3594ff;
+    background: rgb(103,175,255);
+    background: linear-gradient(135deg, rgba(103,175,255,1) 0%, rgba(110,103,255,1) 50%, rgba(215,103,255,1) 100%);
+}
+svg.warning-icon {
+    width: 50px;
+    height: 50px;
+}
+div.warning-icon-div {
+    border: 2.5px solid orange;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    background: rgb(255,255,255);
+    background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(219,219,219,1) 100%);
+    font-family: 'Cera Round Pro';
+}
+h1.warning-icon-h1 {
+    color: black;
+    display: inline;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+h3.warning-icon-h3 {
+    color: black;
+    margin-top: 8px;
+}
+.togglesWhite {
+    transition: 0.3s all;
+}
+img.offline {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    padding-top: 250px;
+}
