@@ -50,7 +50,7 @@ strong {
     text-shadow: 0px 15px 5px rgba(0,0,0,0.1),
     10px 20px 5px rgba(0,0,0,0.05),
     -10px 20px 5px rgba(0,0,0,0.05);
-    font-family: 'Fredoka One', cursive;
+    font-family: 'dosis', cursive;
 }
 hr {
     background: #9c9c9c;
@@ -226,14 +226,18 @@ input::placeholder {
     font-weight: bold;
     font-size: large;
 }
-.YouTubeButton {
+.footerButton .footerButtonOther {
     border: none;
     border-radius: none;
+    transition: all 0.3s;
 }
-.YouTubeButton:hover {
+.footerButtonOther {
+    padding-left: 10px;
+}
+.footerButton:hover .footerButtonOther:hover {
     opacity: 0.7;
 }
-.YouTubeButton:active {
+.footerButton:active .footerButtonOther:active {
     opacity: 0.4;
 }
 .FlagNetherlands {
@@ -569,4 +573,46 @@ img.offline {
     margin-right: auto;
     width: 20%;
     padding-top: 250px;
+}
+div.menu {
+    display: none;
+    float: left;
+    padding-right: 10px;
+    background: var(--color-info-light);
+    border-radius: var(--border-radius-1);
+    box-shadow: var(--box-shadow);
+}
+
+
+
+
+
+
+
+
+
+/* ROOT */
+:root {
+    --color-primary: #7380ec;
+    --color-danger: #ff7782;
+    --color-succes: #41f1b6;
+    --color-warning: #ffbb55;
+    --color-white: #fff;
+    --color-info-dark: #363949;
+    --color-info-light: #dce1eb;
+    --color-dark: #363949;
+    --color-light: rgba(132, 139, 200, 0.18);
+    --color-primary-variant: #111e88;
+    --color-dark-variant: #677483;
+    --color-background: #fff;
+
+    --card-border-radius: 2rem;
+    --border-radius-1: 0.4rem;
+    --border-radius-2: 0.8rem;
+    --border-radius-3: 1.2rem;
+
+    --card-padding: 1.8rem;
+    --padding-1: 1.2rem;
+
+    --box-shadow: 0 2rem 3rem var(--color-light);
 }
