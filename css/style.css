@@ -581,10 +581,23 @@ div.menu {
     background: var(--color-info-light);
     border-radius: var(--border-radius-1);
     box-shadow: var(--box-shadow);
+    padding: 10;
 }
-
-
-
+h1.learn {
+    color: var(--color-info-light);
+}
+h1.dash {
+    color: var(--info-dark);
+}
+input.code {
+    background: var(--color-dark);
+    border: 2px solid var(--color-light);
+    width: 35px;
+    display: inline-block;
+}
+form.code {
+    border: 2px hidden #1a505a;
+}
 
 
 

@@ -6,12 +6,19 @@
     <title>Code</title>
 </head>
 <body>
-    <form>
-        <h1 class="hompage">Login</h1>
-        <input title="Required" required="required" class="email" type="email" name="email" placeholder="e.g. daylin@tips.com" id="email">
+    <form class="code" id="form_code">
+        <h1 class="hompage">Code</h1>
+        <div>
+            <input title="Required" required="required" class="code" type="number" min="1" max="9" placeholder="-">
+            <input title="Required" required="required" class="code" type="number" min="1" max="9" placeholder="-">
+            <input title="Required" required="required" class="code" type="number" min="1" max="9" placeholder="-">
+            <input title="Required" required="required" class="code" type="number" min="1" max="9" placeholder="-">
+            <input title="Required" required="required" class="code" type="number" min="1" max="9" placeholder="-">
+            <input title="Required" required="required" class="code" type="number" min="1" max="9" placeholder="-">
+        </div>
         <button onclick="LoginClickCheck()" class="submit" type="submit">LOGIN</button>
     </form>
 
-    <script src="js/loginScript.js"></script>
+    <script src="js/codescript.js"></script>
 </body>
 </html>

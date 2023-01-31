@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <title>About me</title>
     <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <link type="text/css" rel="stylesheet" href="css/animation.css"/>
     <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
@@ -23,9 +24,14 @@
         </nav>
     </header>
     
-    <p>Hi! I'm Daylin. I'm a developer. I love to code in <strong>Lua, JavaScript, HTML and CSS</strong>!</p>
-    <p>I'm learning alot of coding languages still, but I'm getting ahead of it!</p>
-
+    <h1 style="font-family: 'Dosis'; color: white;">Hi, I'm Daylin. I'm a <span style="color: rgba(185, 9, 185, 0.616);" class="multiText"></span></h1>
+    <a target="_blank" class="footerButton" href="https://www.youtube.com/@RealDaylin">
+        <img class="footerButton" src="images/YouTube-icon.svg" alt="YouTube-icon" width="40" height="40"/>
+    </a>
+    <a target="_blank" class="footerButtonOther" href="https://www.github.com/RealDaylin">
+        <img class="footerButtonOther" src="images/github.svg" alt="GitHub-icon" width="40" height="40"/>
+    </a>
+    
     <h1>My coding skills:</h1>
     <div class="skillContainer">
         <div class="circular-progress">
@@ -35,7 +41,7 @@
         <span class="skillText">HTML</span>
         
     </div>
-    <div style="" class="skillContainer">
+    <div class="skillContainer">
         <div class="circular-progress">
             <span id="progress-text" class="progress-text">90%</span>
         </div>
@@ -46,12 +52,15 @@
             
         
         
-    <a target="_blank" class="footerButton" href="https://www.youtube.com/@RealDaylin">
-        <p>    <a target="_blank" class="footerButton" href="https://www.youtube.com/@RealDaylin">
-        <img class="footerButton" src="images/YouTube-icon.svg" alt="YouTube-icon" width="40" height="40"/>
-    </a>
-    <a target="_blank" class="footerButton" href="https://www.github.com/RealDaylin">
-        <img class="footerButton" src="images/github.svg" alt="GitHub-icon" width="40" height="40"/>
-    </a></p>
-    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typingEffect = new Typed(".multiText", {
+        strings : ["Coder", "YouTuber", "Website Creator"],
+        loop : true,
+        typeSpeed : 100,
+        backSpeed : 80,
+        backDelay : 1500
+      })
+    </script>
 </body>
