@@ -8,6 +8,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
     <link rel="manifest" href="icon/site.webmanifest">
+    <script defer src="js/onScrollAbout.js"></script>
 </head>
 <body>
     <header>
@@ -24,16 +25,20 @@
         </nav>
     </header>
     
-    <h1 style="font-family: 'Dosis'; color: white;">Hi, I'm Daylin. I'm a <span style="color: rgba(185, 9, 185, 0.616);" class="multiText"></span></h1>
-    <a target="_blank" class="footerButton" href="https://www.youtube.com/@RealDaylin">
+    <h1 class="hidden" style="font-family: 'Dosis'; color: white; text-align: center;">Hi, I'm Daylin. I'm a <span style="color: rgba(185, 9, 185, 0.616);" class="multiText"></span></h1>
+    <a style="text-align: center; justify-content: center;" target="_blank" class="footerButton" href="https://www.youtube.com/@RealDaylin">
         <img class="footerButton" src="images/YouTube-icon.svg" alt="YouTube-icon" width="40" height="40"/>
     </a>
-    <a target="_blank" class="footerButtonOther" href="https://www.github.com/RealDaylin">
+    <a style="text-align: center; justify-content: center;" target="_blank" class="footerButtonOther" href="https://www.github.com/RealDaylin">
         <img class="footerButtonOther" src="images/github.svg" alt="GitHub-icon" width="40" height="40"/>
     </a>
+
+    <div class="scrollAbout">
+
+    </div>
     
-    <h1>My coding skills:</h1>
-    <div class="skillContainer">
+    <h1 class="hidden">My coding skills:</h1>
+    <div class="hidden">
         <div class="circular-progress">
             <span id="progress-text" class="progress-text">90%</span>
         </div>
@@ -41,7 +46,7 @@
         <span class="skillText">HTML</span>
         
     </div>
-    <div class="skillContainer">
+    <div class="hidden">
         <div class="circular-progress">
             <span id="progress-text" class="progress-text">90%</span>
         </div>

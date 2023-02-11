@@ -11,13 +11,7 @@ function menuIconRotate() {
     menuDiv.style.display = "none";
   } else {
     menuIcon.style.transform = "rotate(-90deg)";
-    menuDiv.style.display = "flex";
-    menuDiv.style.float = "left";
-    menuDiv.style.padding = "10px";
-    menuDiv.style.background = "var(--color-info-light)";
-    menuDiv.style.boxShadow = "var(--box-shadow)";
-    menuDiv.style.width = "530px";
-    menuDiv.style.borderRadius = "var(--border-radius-1)";
+    menuDiv.style.display = "block";
   }
 }
 

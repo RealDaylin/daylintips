@@ -8,9 +8,7 @@ var loggedIn = false
 function LoginClickCheck() {
     if (email.value == "") {
         alert("Please enter email.");
-    }
-    else
-    {
-        window.location.replace('code.html');
+    } else {
+        window.location.replace('code.html')
     }
 }
