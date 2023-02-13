@@ -96,6 +96,8 @@ header p {
 header h1 {
     font-size: 16px;
     text-align: right;
+    font-family: 'Cera Round Pro';
+    color: white;
 }
 footer {
     background-color: #b577b5;
@@ -617,6 +619,7 @@ div.scrollAbout {
     transition: all 1s;
     filter: blur(5px);
     transform: translateX(-100%);
+    font-family: 'Cera Round Pro';
 }
 .show {
     opacity: 1;
